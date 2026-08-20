@@ -4,7 +4,7 @@ A fast, searchable reference for the robotics abbreviations, protocols,
 coordinate conventions, hardware models, and Copper-specific vocabulary used
 across [copper-rs](https://github.com/copper-project/copper-rs).
 
-**[Open the rendered cheatsheet](https://scofield626.github.io/copper-robotics-jargon/)**
+**[Open the rendered cheatsheet](https://scofieldliu.com/copper-robotics-jargon/)**
 
 The page is self-contained and needs no build step, package installation, or
 local server. You can also open [`index.html`](index.html) directly after cloning.
