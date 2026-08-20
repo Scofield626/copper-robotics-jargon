@@ -4,13 +4,16 @@ A fast, searchable reference for the robotics abbreviations, protocols,
 coordinate conventions, hardware models, and Copper-specific vocabulary used
 across [copper-rs](https://github.com/copper-project/copper-rs).
 
-Open [`index.html`](index.html) directly in a browser. The page is self-contained
-and needs no build step, package installation, or local server.
+**[Open the rendered cheatsheet](https://scofield626.github.io/copper-robotics-jargon/)**
+
+The page is self-contained and needs no build step, package installation, or
+local server. You can also open [`index.html`](index.html) directly after cloning.
 
 ## Repository layout
 
 - `index.html` — the complete static cheatsheet, including its curated term data
 - `audit.py` — validates entries and finds uncatalogued terms in a copper-rs checkout
+- `.nojekyll` — publishes the static files directly through GitHub Pages
 - `.gitignore` / `.gitattributes` — local-artifact exclusions and consistent text handling
 
 ## Refreshing it after copper-rs changes
