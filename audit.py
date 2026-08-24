@@ -90,6 +90,9 @@ SUPPRESSIONS: dict[str, str] = {
         "BSRR", "CFS", "CLK", "CMD", "CPIN", "CSR", "DM", "DP", "GPIOE", "HH", "MODER",
         "MSG", "PUPDR", "RCIN", "RSVD", "SA", "SB", "SC", "SCB", "SOP", "VDD", "ZID",
     )},
+    # Perception dataset names are out of scope: the cheatsheet covers robotics
+    # and Copper vocabulary, not the benchmarks an example happens to replay.
+    **{token: "out-of-scope dataset name" for token in ("KITTI", "KITTI2015")},
     # Reviewed words, brands, conference names, formats, and software concepts
     # that do not add useful abbreviation help for the selected scope.
     **{token: "reviewed non-glossary word or out-of-scope technical term" for token in (
